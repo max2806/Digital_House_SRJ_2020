@@ -15,9 +15,7 @@ El grupo esta compuesto por:
     por la estética que presenta.
     -https://www.natural-life.com.ar/ 
     Por la funcionalidad y gestión de carrito que implementa.
-
     https://www.purina-latam.com/ar/catchow/productos
-
     por la estética que presenta en la gestión de productos 
 
 
