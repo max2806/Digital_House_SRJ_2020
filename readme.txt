@@ -16,6 +16,8 @@ El grupo esta compuesto por:
     -https://www.natural-life.com.ar/ 
     Por la funcionalidad y gestión de carrito que implementa.
     https://www.purina-latam.com/ar/catchow/productos
+    https://www.timberline.com.ar/42-alimentos-para-perros
+    https://www.puppis.com.ar/perros/alimentos
     por la estética que presenta en la gestión de productos 
 
 
