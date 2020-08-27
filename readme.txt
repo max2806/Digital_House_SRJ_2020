@@ -1,4 +1,4 @@
-Proyecto micu (nombre a definir)
+# Proyecto mascot
 
 La temática será un e-commerce sobre la distribución de diferentes marcas de alimento balanceado para mascotas.
 El publico objetivo son los comercios que desean comercializar las marcas disponibles y personas particulares que se sujeten a las condiciones de compra.
