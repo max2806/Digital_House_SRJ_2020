@@ -1,6 +1,7 @@
-1-¿Que hicimos bien?
+## 1-¿Que hicimos bien?
 -que lo terminamos en tiempo forma, pudimos coordinar los trabajos a realizar por cada integrante.
-2-¿Que hicieron mal?
+## 2-¿Que hicieron mal?
 no falto comunicacion, compromiso en el equipo y organizacion.
-3-Dedicar mas tiempo al proyecto, mejorar la comunicacion y organizarnos.
-4-Dejar de pocastinar.
+## 3.- ¿Que deberian empezar a hacer?
+-Dedicar mas tiempo al proyecto, mejorar la comunicacion y organizarnos.
+-Dejar de pocastinar.
