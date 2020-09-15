@@ -4,4 +4,4 @@
 - Nos falto comunicacion, compromiso en el equipo y organizacion.
 ## 3.- ¿Que deberian empezar a hacer?
 - Dedicar mas tiempo al proyecto, mejorar la comunicacion y organizarnos.
-- Dejar de pocastinar.
+- Dejar de procastinar.
