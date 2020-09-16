@@ -4,7 +4,8 @@ console.log(__dirname)
 app.get('/',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
     //res.send('Hola desde Express')// responde un string
    // res.json('Hola desde Express')// responde un json
-   res.sendFile(__dirname + '/index.html')//entrega el archivo HTML
+   console.log(__dirname)
+   res.sendFile(__dirname + '/public/index.html')//entrega el archivo HTML
 }) 
 app.get('/autos',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
     res.send('Hola desde Express sección de autos!!')// responde un 
