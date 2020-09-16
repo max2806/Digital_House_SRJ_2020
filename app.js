@@ -11,6 +11,9 @@ app.get('/',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una fu
 app.get('/carrito',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
     res.sendFile(__dirname + '/public/carrito.html')// responde un 
 }) 
+app.get('/registro',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
+    res.sendFile(__dirname + '/public/registro.html')// responde un 
+})
 app.get('*',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
     //res.send('No encontrado')// responde un 
     res.status(400).send('No encontrado con 400')// responde un codigo 400
