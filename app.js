@@ -1,14 +1,15 @@
 const express = require('express');
 const app = express();
 console.log(__dirname)
+app.use(express.static(__dirname + "/public"));
 app.get('/',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
     //res.send('Hola desde Express')// responde un string
    // res.json('Hola desde Express')// responde un json
    console.log(__dirname)
    res.sendFile(__dirname + '/public/index.html')//entrega el archivo HTML
 }) 
-app.get('/autos',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
-    res.send('Hola desde Express sección de autos!!')// responde un 
+app.get('/carrito',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
+    res.sendFile(__dirname + '/public/carrito.html')// responde un 
 }) 
 app.get('*',(req,res)=>{ //cuando alguien llega a la raiz del sitio (/) y una funccion
     //res.send('No encontrado')// responde un 
