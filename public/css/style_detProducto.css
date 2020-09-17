@@ -5,12 +5,7 @@
 .container{
     border: 1px solid rgba(12, 0, 0, 0.336);
 }
-.logo{
-    width: 140px;
-    border-radius: 70px;
-    border: 1px solid gray;
-    /* margin-top: 15px; */
-}
+
 #ul__menu{
     list-style: none;
     display: flex;
@@ -61,6 +56,7 @@ ul, li, a{
 .section__detProducto{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 100px;
 }
 .head__detProducto{
     display: flex;
