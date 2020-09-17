@@ -11,9 +11,7 @@
     display: flex;
     justify-content: center;
 }  
-header div nav ul li{
-     
-}  
+
 ul, li, a{
     display: inline;
     margin-left: 3px;
@@ -67,6 +65,7 @@ ul, li, a{
 }
 #logo__detProducto{
     width: 100%;
+    
 }
 .foto__detProducto{
     display: flex;
@@ -160,4 +159,49 @@ ul, li, a{
     border: 1px solid gainsboro;
     height: 60px;
     background: #f2f2f2;
+}
+
+/* clases exclusivas login */
+.section__login{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 100%;
+}
+.section__uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gainsboro;
+    width: 60%;
+    padding-left: 5%;
+   }
+.section__dos{
+    display: flex;
+    border: 1px solid gainsboro;
+    width: 40%;
+    
+}
+.sub__sectioUno{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #555454;
+    font-size: 18px;
+    padding: 0 0 15px;
+    line-height: normal;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #d6d4d4;
+}
+#color_black{
+    color: black;
+}
+.button__login{
+    background-color: green;
+    width: 140px;
+}
+.login__redes{
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    padding-top: 10px;
 }
