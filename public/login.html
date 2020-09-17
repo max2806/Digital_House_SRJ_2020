@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style__login.css">
+    <link rel="stylesheet" href="/css/style_detProducto.css">
+    <link rel="stylesheet" href="/css/style-home.css">
+    
     <title>Login</title>
 </head>
 <body>
@@ -15,17 +17,49 @@
        
               <nav class="navbar">
                    <ul class="ul_nav_section">
-                       <li><a href="#">Producto</a></li>
+                       <li><a href="/detProducto.html">Det_Producto</a></li>
                        <li><a href="/carrito.html">Carrito</a></li>
                        <li><a href="/registro.html">Registrese</a></li>
-                       <li><a href="#">Login</a></li>
+                       <li><a href="/login.html">Login</a></li>
                    </ul>
              </nav>
            </header>
-        <section class="contain__input">
-            <p>Login</p>
+       
+        <section class="section__login">
+            <div class="section__uno">
+                <h2 class="sub__sectioUno">¿ya estas registrado?</h2>
+                <label for="email">Correo electrónico</label>
+                <div class="cuenta__login">
+                    <input class="validate__cuenta" data-validate="isEmail" type="email" id="email" name="email" value="">
+                </div>
+                <label for="passwd">Contraseña</label>
+                <div>
+                    <input class="is_required validate account_input form-control" type="password" data-validate="isPasswd" id="passwd" name="passwd" value="">
+                </div>
+                <p><a id="color_black" href="#">¿Olvide mi contraseña?</a></p>
+                <button type="submit" id="SubmitLogin" name="SubmitLogin" class="button__login">
+                    <span>
+                        <i class="icon-lock left"></i>
+                        Iniciar sesión
+                    </span>
+                </button>
+                <span style="font-size: 16px;">Ingresar con</span>
+                <div class="login__redes">
+                     <img src="img/fb_small.png">
+                     <img src="img/google_small.png">
+                     <img src="img/twitter_small.png">
+
+                </div>
+            </div>
+                   
+            <div class="section__dos">
+                <img id="logo__detProducto" src="/img/img_login.png" alt="">
+            </div>
+            
         </section>
-        
     </div>
+    <footer class="mascot__footer">
+
+    </footer>
 </body>
 </html>
