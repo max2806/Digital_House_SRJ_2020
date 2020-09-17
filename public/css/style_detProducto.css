@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.container{
+    border: 1px solid rgba(12, 0, 0, 0.336);
+}
+.logo{
+    width: 140px;
+    border-radius: 70px;
+    border: 1px solid gray;
+    /* margin-top: 15px; */
+}
+#ul__menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}  
+header div nav ul li{
+     
+}  
+ul, li, a{
+    display: inline;
+    margin-left: 3px;
+    color: black;
+    text-decoration: none;
+    
+}   
+
+.header_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f2f2;
+    /* margin-bottom: 16px; */
+    height: 70px;
+    width: 100%;
+    position: relative;
+
+    justify-content: center;
+}
+/* .top__menu{
+    display: flex; 
+    position: absolute;   
+    right: 1%; 
+    top:-20%;   
+   
+} */
+.menu__section{
+    height: 40px;
+    border: 1px solid  rgba(12, 0, 0, 0.336);
+}
+.nav_menu_section{
+    display: flex;
+    
+    justify-content: center;
+}
+
+/* style añadido del detalle de producto al style general */
+
+.section__detProducto{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head__detProducto{
+    display: flex;
+   /*  height: 120px; */
+    border: 1px solid gainsboro;
+    
+    width: 100%;
+}
+#logo__detProducto{
+    width: 100%;
+}
+.foto__detProducto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    background-color: lavenderblush;
+}
+.img__detProducto{
+    width: 100%;
+    
+}
+.info__detProducto{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    border: 1px solid gainsboro;
+    height: 400px;
+    float: right;
+    padding-left: 3px;
+    
+}
+.name__detProducto{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.peso__detProducto{
+    display: flex;
+    height:45px;
+}
+.title{
+    font-size: 16px;
+    height: 20px;
+    margin-top: 5px;
+    
+}
+.quantitySelector {
+    padding: 10px 0;
+    /* height: 40px; */
+    display:flex;
+   /*  float: none; */
+}
+.content {
+    margin-top: 11px;
+    position: relative;
+    display: inline-block;
+    width: 446px;
+}
+.item.active {
+    color:black;
+    background: #01a6e0;
+    border-color: #01a6e0;
+    width: 50px;
+    text-align: center;
+}
+.cantidad__kg{
+    display: flex;
+}
+.quantity{
+    width: 40px;
+    text-align: center; 
+}
+.btn__select{
+    width: 40px;
+    text-align: center;
+    border: 1px solid;
+}
+.desc__producto{
+    display: flex;
+    padding-bottom: 3px;
+    
+}
+#detalle__p{
+    text-align: center;
+}
+.fn__productName{
+    margin-top: 5px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.mascot__footer{
+    border: 1px solid gainsboro;
+    height: 60px;
+    background: #f2f2f2;
+}
