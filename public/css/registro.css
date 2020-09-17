@@ -1,0 +1,29 @@
+.section-registro{
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.formulario-registro {
+    display: flex;
+    flex-direction: column;
+ margin: 10px;
+}
+.formulario-registro input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 1px;
+    margin-left: 0;
+    margin-bottom: 8px;
+}
+.formulario-registro input:hover{
+    border: 1px solid lightseagreen;
+}
+.formulario-registro input:focus{
+    border: 1px solid lightseagreen;
+ 
+}

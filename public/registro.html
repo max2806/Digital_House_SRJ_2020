@@ -4,32 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style_carrito.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/registro.css">
     <title>Registro</title>
 </head>
 <body>
     <div class="container">
-        <header class="main">
-            <div class="header_menu">
-                <img src="/img/logo-negro.png" alt="logotipo" class="logo">
-                
-            </div>
-
-        </header>
-        <section class="menu__section">
-            <nav class="nav_menu_section">
-                <ul class="ul_nav_section">
-
-                    <li><a href="#">Producto</a></li>
-                    <li><a href="/carrito.html">Carrito</a></li>
-                    <li><a href="/registro.html">Registrese</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-            <p>registro</p>
+       
+        <header class="head">
+            <div class="logo">
+               <a href="/"><img src="/img/log.png" alt="logotipo" class="logo"></a>
+             </div>
+       
+              <nav class="navbar">
+                   <ul class="ul_nav_section">
+                       <li><a href="#">Producto</a></li>
+                       <li><a href="/carrito.html">Carrito</a></li>
+                       <li><a href="/registro.html">Registrese</a></li>
+                       <li><a href="/login.html">Login</a></li>
+                   </ul>
+             </nav>
+           </header>
+        <section class="section-registro"> 
+            <h3>Registrate aqui</h3>
+            <div class="section-registro__item">
+                    <h4>Regístrate para obtener información útil para ti y tu mascota</h4>
+                    <form action="#" class="formulario-registro">
+                        <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre">
+                            <label for="apellido" >Apellido</label>
+                                <input type="text" name="apellido">
+                                <label for="correo" >Correo electronico</label>
+                                    <input type="email" name="correo" placeholder="nombre@empresa.com">
+                                    <label for="male">Tengo Mascotas
+                                    <input type="radio" id="tengo-mascota" name="gender" value="tengo mscota(s)"></label>
+                                    <label for="male">Soy vendedor
+                                        <input type="radio" id="tengo-mascota" name="gender" value="tengo mscota(s)"></label>
+                                        <input type="submit" value="registrar">
+                    </form>
+                </div>
         </section>
     </div>
+    <footer class="footer">
+        <div class="logo">
+            <a href="/"><img src="/img/log.png" alt="logotipo" class="logo"></a>
+          </div>
+    </footer>
 </body>
 </html>
 
