@@ -20,6 +20,6 @@ El publico objetivo son los comercios que desean comercializar las marcas dispon
         por la estética que presenta en la gestión de productos 
 
 
-revisar
+
 Enlace al tablero de trabajo
 https://trello.com/equiposrj
