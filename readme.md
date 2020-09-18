@@ -21,3 +21,5 @@ El publico objetivo son los comercios que desean comercializar las marcas dispon
 
 
 revisar
+Enlace al tablero de trabajo
+https://trello.com/equiposrj
